@@ -14,6 +14,7 @@
 		1621EB19293C7CF4004C4710 /* CurrencyConverter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1621EB17293C7CF4004C4710 /* CurrencyConverter.xcdatamodeld */; };
 		1621EB1B293C7CF7004C4710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1621EB1A293C7CF7004C4710 /* Assets.xcassets */; };
 		1621EB1E293C7CF7004C4710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1621EB1C293C7CF7004C4710 /* LaunchScreen.storyboard */; };
+		1621EB26293C881D004C4710 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1621EB25293C881D004C4710 /* ExchangeRates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1621EB1A293C7CF7004C4710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1621EB1D293C7CF7004C4710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1621EB1F293C7CF7004C4710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1621EB25293C881D004C4710 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1621EB0E293C7CF4004C4710 /* AppDelegate.swift */,
 				1621EB10293C7CF4004C4710 /* SceneDelegate.swift */,
 				1621EB12293C7CF4004C4710 /* ViewController.swift */,
+				1621EB25293C881D004C4710 /* ExchangeRates.swift */,
 				1621EB14293C7CF4004C4710 /* Main.storyboard */,
 				1621EB1A293C7CF7004C4710 /* Assets.xcassets */,
 				1621EB1C293C7CF7004C4710 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				1621EB13293C7CF4004C4710 /* ViewController.swift in Sources */,
 				1621EB19293C7CF4004C4710 /* CurrencyConverter.xcdatamodeld in Sources */,
 				1621EB0F293C7CF4004C4710 /* AppDelegate.swift in Sources */,
+				1621EB26293C881D004C4710 /* ExchangeRates.swift in Sources */,
 				1621EB11293C7CF4004C4710 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

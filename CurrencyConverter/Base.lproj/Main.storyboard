@@ -19,8 +19,8 @@
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3PV-r4-rpK">
                                 <rect key="frame" x="0.0" y="646" width="414" height="216"/>
                             </pickerView>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FYc-0Q-AYf">
-                                <rect key="frame" x="20" y="604" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FYc-0Q-AYf">
+                                <rect key="frame" x="20" y="612" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -34,16 +34,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="3PV-r4-rpK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4qJ-mU-iq0"/>
+                            <constraint firstAttribute="bottom" secondItem="3PV-r4-rpK" secondAttribute="bottom" id="1mB-MW-laA"/>
+                            <constraint firstItem="FYc-0Q-AYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4Ck-Gu-bPw"/>
+                            <constraint firstItem="3PV-r4-rpK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9AT-5O-i4j"/>
                             <constraint firstItem="nvb-Hq-pgN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ADn-do-ScP"/>
-                            <constraint firstItem="FYc-0Q-AYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Civ-x3-p8W"/>
+                            <constraint firstAttribute="trailing" secondItem="3PV-r4-rpK" secondAttribute="trailing" id="KD0-G2-zBS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3PV-r4-rpK" secondAttribute="bottom" id="SRb-Dw-7ga"/>
+                            <constraint firstItem="3PV-r4-rpK" firstAttribute="top" secondItem="FYc-0Q-AYf" secondAttribute="bottom" id="VAH-VI-KwB"/>
+                            <constraint firstItem="3PV-r4-rpK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f32-gF-MD4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FYc-0Q-AYf" secondAttribute="trailing" constant="20" id="hKP-1P-6YU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nvb-Hq-pgN" secondAttribute="trailing" constant="20" id="jUK-WO-vKH"/>
-                            <constraint firstItem="3PV-r4-rpK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jWP-vg-u3E"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FYc-0Q-AYf" secondAttribute="bottom" constant="8" id="mNV-WZ-a4n"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FYc-0Q-AYf" secondAttribute="trailing" constant="20" id="q6K-Bq-qAH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FYc-0Q-AYf" secondAttribute="trailing" constant="20" id="rxM-If-fyZ"/>
-                            <constraint firstItem="FYc-0Q-AYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wVH-36-84v"/>
+                            <constraint firstItem="3PV-r4-rpK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nwA-kc-pAs"/>
                             <constraint firstItem="nvb-Hq-pgN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="wZD-6v-D3x"/>
                         </constraints>
                     </view>
